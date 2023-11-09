@@ -16,7 +16,7 @@ def get_weatherdata():
         response = requests.get(url)
         data = response.json()
         temp = data['main']['temp']
-        return f"city : {city},\n temperature:{temp}"
+        return f"city : {city}, temperature: {temp}°C"
     except:
         return f"City not found! try some other city"
 
