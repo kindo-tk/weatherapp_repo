@@ -16,10 +16,12 @@ def get_weatherdata():
         response = requests.get(url)
         data = response.json()
         temp = data['main']['temp']
-        return f"city : {city}, temperature: {temp}°C"
+        result = f"City : {city}, Temperature: {temp}°C"
+        
     except:
-        return f"City not found! try some other city"
-
+        result = f"Sorry, City not found! Try some other city"
+        
+    return render_template('results.html',result = result)
 if __name__ == '__main__':
     app.run(host = '0.0.0.0')
     
