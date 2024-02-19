@@ -44,5 +44,5 @@ These instructions will help you get a copy of the project up and running on you
 
 You can access the deployed application at the following URL: https://weatherapp-hws1.onrender.com
 
-<img src="https://github.com/kindo-tk/images/blob/main/weatherapp/weather1.png"   height="300">
-<img src="https://github.com/kindo-tk/images/blob/main/weatherapp/weather2.png" >
+<img src="https://github.com/kindo-tk/images/blob/main/weather_app/weather_new1.png"   >
+<img src="https://github.com/kindo-tk/images/blob/main/weather_app/weather_new2.png" >
